@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de connexion</title>
+
+    <!--css stays here-->
+    <link rel="stylesheet" href="./src/css/login.css">
+
+    
+    <!--Boxicons css-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form__content">
+                <header>Se connecter</header>
+
+                <form action="#">
+                    <div class="field input__field">
+                        <input type="email" class="input" placeholder="Email">
+                    </div>
+
+                    <div class="field input__field">
+                        <input type="password" class="password" placeholder="Mot de passe ">
+                        <i class='bx bx-hide eye__icon'></i>
+                    </div>
+
+                    <div class="form__link">
+                        <a href="#" class="forgot-pass">Mot de pass oublié?</a>
+                    </div>
+
+                    <div class="field button__field">
+                        <button>connexion</button>
+                    </div>
+                </form>
+
+                <div class="form__link">
+                    <span>Vous n'avez pas de compte? </span><a href="#" class="link signup__link">Créer un compte</a>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media__options">
+                <a href="" class="field facebook">
+                    <i class='bx bxl-facebook facebook__icon' ></i>
+                    <span>Se connecter avec Facebook</span>
+                </a>
+            </div>
+
+            <div class="media__options">
+                <a href="" class="field google">
+                    <img src="./assets/icons/google-icons.png" class="google__icon" alt="google icon">
+                    <span>Se connecter avec google</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="form login">
+            <div class="form__content">
+                <header>Créer un compte</header>
+
+                <form action="#">
+                    <div class="field input__field">
+                        <input type="email" class="input" placeholder="Email">
+                    </div>
+
+                    <div class="field input__field">
+                        <input type="password" class="password" placeholder="Mot de passe ">
+                        <i class='bx bx-hide eye__icon'></i>
+                    </div>
+
+                    <div class="field input__field">
+                        <input type="password" class="password" placeholder="Mot de passe ">
+                        <i class='bx bx-hide eye__icon'></i>
+                    </div>
+
+                    <div class="field button__field">
+                        <button>S'inscrire</button>
+                    </div>
+                </form>
+
+                <div class="form__link">
+                    <span>Avez-vous déjà un compte? </span><a href="#" class="link login-link">Se connecter</a>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media__options">
+                <a href="" class="field facebook">
+                    <i class='bx bxl-facebook facebook__icon' ></i>
+                    <span>Se connecter avec Facebook</span>
+                </a>
+            </div>
+
+            <div class="media__options">
+                <a href="" class="field google">
+                    <img src="./assets/icons/google-icons.png" class="google__icon" alt="google icon">
+                    <span>Se connecter avec google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--Script stays here-->
+    <script src="./src/js/login.js"></script>
+</body>
+</html>
